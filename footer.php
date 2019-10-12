@@ -6,7 +6,6 @@
 	<style>
 		  body {
 	    margin: 0;
-	    background: #fff;
 	    width: 100%;
 	    height: 300px;
       outline: none;
@@ -20,7 +19,7 @@
 			  font-family: sans-serif;
 			  font-weight: bold;
 			  font-size: 16px;
-        padding-top: 20px;
+        padding-top: 50px;
         padding-bottom: 10px;
 			  padding-left: 50px;
 		}
@@ -76,6 +75,7 @@ a, a:active, a:focus {
 }
 .footer .footer-center i {
   color: #0099ff;
+	padding-top: 10px;
   font-size: 25px;
   width: 38px;
   height: 38px;
@@ -178,7 +178,7 @@ a, a:active, a:focus {
 
 <div class="footer">
   <div class="footer-left col-md-4 col-sm-6">
-      <h2> About the website</h2> <p class="about"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna ex, elementum id convallis eu, elementum id justo. Maecenas dictum sagittis leo, ut ultrices risus mollis vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phaselluseu lectus felis. Vivamus eget velit erat. Vivamus condimentum augue.</span>
+      <h2> About the website</h2> <p class="about"><span>Apartment management system is coming up with the concept to replace the paperwork and to maintain all the information digitally. The owners/tenants and technicians can be notified about complaints. This application will be used by apartment president and owners/tenants.</span>
     </p>
     <div class="icons">
       <a href="#"><i class="fa fa-facebook"></i></a>
@@ -206,14 +206,14 @@ a, a:active, a:focus {
     <b>A M S</b>
     <p class="menu">
       <a href="http://localhost/Apartment_Management_System/"> Home</a>
-      <a href="#"> About</a>
-      <a href="#"> Services</a>
-      <a href="#"> Portfolio</a>
-      <a href="#"> News</a>
-      <a href="#"> Contact</a>
+      <a href="http://localhost/Apartment_Management_System/about.php"> About</a>
+      <a href="http://localhost/Apartment_Management_System/user/userlogin.php"> User</a>
+      <a href="http://localhost/Apartment_Management_System/technician/techlogin.php"> Technician</a>
+      <a href="http://localhost/Apartment_Management_System/admin/adminlogin.php"> Admin</a>
+
     </p>
     <p class="name"> AMS &copy Copyrigt: 2019</p>
   </div>
 </div>
 </body>
-</html>
+  </html>
